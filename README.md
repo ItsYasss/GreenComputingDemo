@@ -1,16 +1,62 @@
-# React + Vite
+Green Cloud Computing: Energy Optimization Demo
+This project presents an energy-efficient resource allocation system for sustainable cloud computing. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎮 Interactive Live Simulation
 
-Currently, two official plugins are available:
+Real-time visualization of 8 physical servers
+Dynamic VM workload fluctuations
+Color-coded server status (Active/Sleep/Overloaded)
+Workload trend analysis
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔬 Algorithm Comparison
+Compare four consolidation strategies:
 
-## React Compiler
+Static Threshold: Fixed resource allocation
+Reactive: Responds after threshold violations
+Proactive (LSTM): Predicts and acts before congestion
+Hybrid (LSTM-DQN): Our proposed intelligent approach
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📊 CloudSim Integration
 
-## Expanding the ESLint configuration
+Load real CloudSim simulation results
+Upload custom JSON benchmark data
+Side-by-side performance comparison
+Export combined results
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📈 Comprehensive Metrics
+
+Total Energy Consumption (kWh)
+SLA Violations (SLATAH + PDM)
+VM Migration Count
+Active Server Utilization
+Power Usage Effectiveness (PUE)
+
+🎮 Demo Features
+1. Real-Time Simulation
+
+Start/Pause/Reset controls
+Time-step progression
+Server status visualization
+Live metric updates
+
+2. Algorithm Selection
+Switch between strategies to compare:
+
+Energy consumption patterns
+SLA violation frequencies
+Migration behaviors
+Server consolidation efficiency
+
+3. CloudSim Data Visualization
+
+Benchmark result comparison table
+Workload trace graphs
+Performance improvement percentages
+PUE analysis
+
+4. Export Functionality
+Download combined results including:
+Live simulation metrics
+CloudSim benchmark data
+Timestamp and configuration
+JSON format for further analysis
